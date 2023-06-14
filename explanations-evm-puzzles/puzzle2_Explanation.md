@@ -69,3 +69,6 @@ This bytecode simply returns 10 zeros from memory.
 Next, we build a construction bytecode that returns our runtime bytecode:
 00 64600A6000F3 PUSH5 600A6000F3
 06 6000 PUSH1 # Let's find the end of this bytecode
+
+Solution Input:
+`{"data":"0x64600A6000F3600052600A601BF3","value":0}`

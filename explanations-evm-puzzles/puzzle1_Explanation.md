@@ -49,4 +49,5 @@ The solution is to set CALLDATASIZE to 6 and CALLVALUE to 2. Here's why:
 
 With these values, the EVM can successfully jump to both JUMPDEST opcodes and reach the STOP opcode, solving the puzzle.
 
-{"value":2,"data":"0x010203040506"}
+Solution Input:
+`{"value":2,"data":"0x010203040506"}`

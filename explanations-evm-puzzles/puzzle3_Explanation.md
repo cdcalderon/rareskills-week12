@@ -59,5 +59,5 @@ And the construction bytecode is:
 
 When we enter the calldata `0x6460AA600555600052600A601BF3`, we deploy this new contract. The runtime bytecode of this contract is then `delegate-called`, writing `0xAA` to the fifth storage slot of the puzzle's contract. The `SLOAD` operation checks this value, and since it's the expected `0xAA`, the `EQ` comparison succeeds, enabling us to jump to the `JUMPDEST` and successfully solve the puzzle.
 
-Input solution:
+Solution Input:
 `{"data":"0x6460AA600555600052600A601BF3","value":0}`
