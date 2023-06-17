@@ -34,7 +34,7 @@
 
 - Target => Index 19 (25) where `JUMPDEST` is located
 
-important opcodes used in this puzzle:
+Important opcodes used in this puzzle:
 
 - **GAS**: This opcode pushes the amount of gas remaining onto the stack.
 - **CALLVALUE**: This opcode pushes the amount of Ether sent with the transaction onto the stack.
